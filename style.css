@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Telex&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Telex', sans-serif;
+}
+.main{
+position: absolute;
+top: 50%;
+left: 50%;
+text-align: center;
+    transform: translate(-50%, -50%);
+    height: 60vh;
+    width: 400px;
+    background: #4E243B;
+    border-radius: 10px;
+}
+.main h1{
+    background: #BBA5B0;
+    color: #000;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.main input[type="text"], input[type="password"]{
+    padding: 10px;
+    display: block;
+    margin: 25px auto;
+    display: flex;
+    text-align: center;
+    width: 300px;
+    outline: none;
+    color: white;
+    background: none;
+    border: 2px solid #FFF6FC;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.main input[type="text"]:hover, input[type="password"]:hover{
+border: 2px solid #DE8B56;
+width: 350px;
+}
+.sub{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    
+}
+.sub input[type="reset"]{
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+    background:#DE8B56;
+    color:white ;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.sub input[type="reset"]:hover{
+    background:#BBA5B0 ;
+    color: #000;
+}
+
+.sub input[type="submit"]{
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+    background: #80A2EC;
+    color: #000;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.sub input[type="submit"]:hover{
+    
+    background:#4C4452 ;
+    color:white;
+}
+.link{
+    margin-top: 25px;
+    color: white;
+}
+.link a{
+    color: #80A2EC;
+}
